@@ -1,0 +1,251 @@
+/*=========== General Style ============*/
+
+body {
+  margin: 0px;
+  font-family: 'Cuprum';
+  background-color: rgba(77,144,254, 0.7);
+}
+
+td {text-align: center;}
+th {text-align: center;}
+td a {
+	position:absolute; 
+    text-align:center; 
+    vertical-align:middle;
+}
+
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #000;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+  color: #000;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+  color: #fff;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.loginmodal-container select {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+  height: 34px;
+  font-size: 16px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  color: #909090;
+}
+.loginmodal-container input[type=text], input[type=password] {
+  height: 34px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+} 
+
+.login-help a{
+  font-size: 15px;
+
+}
+
+	.forStart {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	}
+	.forStarts {
+	position: relative;
+	opacity: 0.70;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	}
+	.loginForm {
+		position: absolute;
+		left: 13%;
+		top: 25%;
+		width: 75%;
+		text-align: center;
+		color: #000;
+	}
+
+	.loginForm span.border {
+		background-color: #111;
+		color: #fff;
+		padding: 18px;
+		font-size: 25px;
+		letter-spacing: 10px;
+	}
+.forStarts .loginForm {
+		position: absolute;
+		left: 13%;
+		top: 1%;
+		width: 75%;
+		text-align: center;
+		color: #000;
+	}
+@media screen and (max-height: 560px){
+	.loginForm {
+		left: 12%;
+		top: 1%;
+	}
+}
+@media screen and (max-width: 768px){
+	.loginForm {
+		left: 5%;
+		top: 5%;
+		width: 90%;
+	}
+
+}
+.sidenav {
+    width: 50px;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0,  0.8);
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+.forLinks { text-align: center;}
+
+.sidenav a {
+    text-decoration: none;
+    color: #f2f2f2;
+    display: block;
+    font-weight: bold;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: brown;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+
+.menuHead{
+	margin-top: 10px;
+	position: fixed; 
+	z-index: 1;
+	font-size: 50px;
+	cursor: pointer;
+	color: #f2f2f2;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.menuHead:hover {background-color: rgba(0, 0, 0, 0.8);}
+
+.mainContainer {
+	width: 95%;
+	margin: 0 auto;
+    margin-top: 10px;
+	color: #fff;
+	
+}
+.mainContainer h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+  color: #fff;
+  font-weight: bold;
+}
+.row {background-color: rgba(0, 0, 0, 0.6); padding: 25px; padding-left: 50px;}
+
+.forPhoto {
+  max-width: 150px;
+  background-color: #000;
+  margin: 10px auto;
+}
+.forPhoto img {
+	width: 150px;
+    margin: auto;}
+	
+.caption {text-align: center;}
+
+.caption i {font-size:20px;}

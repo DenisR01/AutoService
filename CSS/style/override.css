@@ -1,0 +1,108 @@
+.button-small {
+    font-size: 85%;
+    margin-top: 2px;
+	color: white;
+    //text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background-color: rgb(223, 117, 20);
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.button-success {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+    background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+#contact .pure-form .pure-group textarea {
+	height: 290px;
+}
+
+#postModWND .pure-form .pure-group textarea {
+  height: 150px;
+}
+
+#postModWND .pure-form .pure-control-group input {
+  width: 100%;
+}
+
+#commentModWND .pure-form .pure-group textarea {
+  height: 150px;
+}
+
+#commentModWND .pure-form .pure-control-group input {
+  width: 100%;
+}
+
+.modal button.pure-button.button-warning {
+	width: 188px;
+}
+#myModal .modal-dialog { width: 90%;}
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
+}
+  .nav-tabs{
+ 
+	background-color:#ffffff;
+}
+ 
+.nav-tabs > li > a{
+	background-color: black !important;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+}
+ 
+.nav-tabs > li > a:hover{
+ 
+	background-color: black !important;
+	border-radius: 5px;
+	color: white;
+	border:1px solid black;
+	font-weight: bold;
+}
+ 
+.nav-tabs > li.active > a,
+ 
+.nav-tabs > li.active > a:focus,
+ 
+.nav-tabs > li.active > a:hover{
+ 
+	background-color: black !important;
+	color:#fff;
+	border:2px solid #3F515F;
+	font-weight: bold;
+}
+.modal-scrollfix.modal-scrollfix {
+    overflow-y: hidden;
+}
+@media screen and (max-width:680px) {
+	#contact .pure-form .pure-group textarea {
+		height: 150px;
+	}
+  #postModWND .pure-form .pure-group textarea {
+    height: 100px;
+  }
+  #commentModWND .pure-form .pure-group textarea {
+    height: 100px;
+  }
+
+}
